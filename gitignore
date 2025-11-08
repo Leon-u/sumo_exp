@@ -39,3 +39,5 @@ trips.trips.xml
 
 # Windows batch temp
 *.bat~
+
+outputs/
