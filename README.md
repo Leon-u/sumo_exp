@@ -1,6 +1,6 @@
 # 基于 OD 的走廊拥堵形成与 Max-Pressure 自适应信号控制（TraCI）
 
-最小可运行的 SUMO 工程，用**时变 OD**在三信号走廊上复现拥堵，并用 **TraCI + Max-Pressure** 做自适应信号控制（支持 GUI 和无界面）。同时提供“全红自检”脚本验证 TraCI 控制链路。
+最小可运行的 SUMO 工程，用**时变 OD**在三信号走廊上复现拥堵，并用 **TraCI + Max-Pressure** 做自适应信号控制（支持 GUI 和无界面）。
 
 ## 目录结构
 
@@ -124,10 +124,3 @@ python analyze_results.py
 MIT（可按需替换）。
 
 ---
-
-## 贡献
-
-欢迎 PR：  
-- 引入入口处 e1/e2 检测器作为压力输入；  
-- 增加 PI/MPC/RL 控制器作横向对比；  
-- 指标面板/可视化叠加（TraCI GUI overlay）。
