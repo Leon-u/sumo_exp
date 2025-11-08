@@ -1,0 +1,13 @@
+<configuration>
+    <input>
+        <node-files value="nodes.nod.xml"/>
+        <edge-files value="edges.edg.xml"/>
+        <type-files value="types.typ.xml"/>
+    </input>
+    <output>
+        <net-file value="net.net.xml"/>
+    </output>
+    <junctions>
+        <no-internal-links value="false"/>
+    </junctions>
+</configuration>

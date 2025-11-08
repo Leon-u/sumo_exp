@@ -1,0 +1,16 @@
+<nodes>
+    <!-- Three signalized intersections J1, J2, J3 along x-axis; A(entrance) at x=0, O(exit) at x=1200 -->
+    <node id="A"  x="0"    y="0" type="priority"/>
+    <node id="J1" x="300"  y="0" type="traffic_light" tl="J1"/>
+    <node id="J2" x="600"  y="0" type="traffic_light" tl="J2"/>
+    <node id="J3" x="900"  y="0" type="traffic_light" tl="J3"/>
+    <node id="O"  x="1200" y="0" type="priority"/>
+
+    <!-- Side road north-south for each junction -->
+    <node id="S1N" x="300" y="120" type="priority"/>
+    <node id="S1S" x="300" y="-120" type="priority"/>
+    <node id="S2N" x="600" y="120" type="priority"/>
+    <node id="S2S" x="600" y="-120" type="priority"/>
+    <node id="S3N" x="900" y="120" type="priority"/>
+    <node id="S3S" x="900" y="-120" type="priority"/>
+</nodes>

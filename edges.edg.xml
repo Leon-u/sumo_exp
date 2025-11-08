@@ -1,0 +1,27 @@
+<edges>
+    <!-- main corridor A -> J1 -> J2 -> J3 -> O (bidirectional) -->
+    <edge id="E_A_J1" from="A" to="J1" type="main" priority="3"/>
+    <edge id="E_J1_A" from="J1" to="A" type="main" priority="3"/>
+    <edge id="E_J1_J2" from="J1" to="J2" type="main" priority="3"/>
+    <edge id="E_J2_J1" from="J2" to="J1" type="main" priority="3"/>
+    <edge id="E_J2_J3" from="J2" to="J3" type="main" priority="3"/>
+    <edge id="E_J3_J2" from="J3" to="J2" type="main" priority="3"/>
+    <edge id="E_J3_O" from="J3" to="O"  type="main" priority="3"/>
+    <edge id="E_O_J3" from="O"  to="J3" type="main" priority="3"/>
+
+    <!-- Side approaches (north-south) at each junction (bidirectional) -->
+    <edge id="E_S1N_J1" from="S1N" to="J1" type="side" priority="2"/>
+    <edge id="E_J1_S1N" from="J1" to="S1N" type="side" priority="2"/>
+    <edge id="E_S1S_J1" from="S1S" to="J1" type="side" priority="2"/>
+    <edge id="E_J1_S1S" from="J1" to="S1S" type="side" priority="2"/>
+
+    <edge id="E_S2N_J2" from="S2N" to="J2" type="side" priority="2"/>
+    <edge id="E_J2_S2N" from="J2" to="S2N" type="side" priority="2"/>
+    <edge id="E_S2S_J2" from="S2S" to="J2" type="side" priority="2"/>
+    <edge id="E_J2_S2S" from="J2" to="S2S" type="side" priority="2"/>
+
+    <edge id="E_S3N_J3" from="S3N" to="J3" type="side" priority="2"/>
+    <edge id="E_J3_S3N" from="J3" to="S3N" type="side" priority="2"/>
+    <edge id="E_S3S_J3" from="S3S" to="J3" type="side" priority="2"/>
+    <edge id="E_J3_S3S" from="J3" to="S3S" type="side" priority="2"/>
+</edges>

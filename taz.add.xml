@@ -1,0 +1,16 @@
+<additional>
+  <!-- A: entrance (A, S1N/S1S/S2N/S2S/S3N/S3S could also be origins if desired) -->
+  <taz id="A">
+    <tazSource id="E_A_J1" weight="1.0"/>
+  </taz>
+  <!-- B: side-road origins combined -->
+  <taz id="B">
+    <tazSource id="E_S1N_J1" weight="1.0"/>
+    <tazSource id="E_S2N_J2" weight="1.0"/>
+    <tazSource id="E_S3N_J3" weight="1.0"/>
+  </taz>
+  <!-- C: final sink around O -->
+  <taz id="C">
+    <tazSink id="E_J3_O" weight="1.0"/>
+  </taz>
+</additional>

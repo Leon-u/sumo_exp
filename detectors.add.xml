@@ -1,0 +1,13 @@
+<additional>
+  <!-- J1 的主路进口：A->J1 这条边的第0车道，停止线前80m -->
+  <laneAreaDetector id="Q_J1_main_in" lane="E_A_J1_0" pos="220" length="80" freq="5" file="Q_J1_main.xml"/>
+  <!-- J2 主路进口：J1->J2 边，停止线前80m -->
+  <laneAreaDetector id="Q_J2_main_in" lane="E_J1_J2_0" pos="220" length="80" freq="5" file="Q_J2_main.xml"/>
+  <!-- J3 主路进口：J2->J3 边 -->
+  <laneAreaDetector id="Q_J3_main_in" lane="E_J2_J3_0" pos="220" length="80" freq="5" file="Q_J3_main.xml"/>
+
+  <!-- 如果要监控支路，也在 S*N->J* 的进口道布置相同的检测器 -->
+  <laneAreaDetector id="Q_J1_side_in" lane="E_S1N_J1_0" pos="80" length="80" freq="5" file="Q_J1_side.xml"/>
+  <laneAreaDetector id="Q_J2_side_in" lane="E_S2N_J2_0" pos="80" length="80" freq="5" file="Q_J2_side.xml"/>
+  <laneAreaDetector id="Q_J3_side_in" lane="E_S3N_J3_0" pos="80" length="80" freq="5" file="Q_J3_side.xml"/>
+</additional>

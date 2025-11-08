@@ -1,0 +1,23 @@
+<additional>
+  <!-- Two-phase per junction: phase 0: main E/W straight; phase 1: side N/S straight -->
+  <tlLogic id="J1" type="static" programID="prog" offset="0">
+    <phase duration="20" state="GGgrrrGGgrrr"/>
+    <phase duration="20" state="rrrGGgrrrGGg"/>
+    <phase duration="3"  state="yyryrryyryrr"/>
+    <phase duration="3"  state="rrryyryrryy"/>
+  </tlLogic>
+
+  <tlLogic id="J2" type="static" programID="prog" offset="10">
+    <phase duration="20" state="GGgrrrGGgrrr"/>
+    <phase duration="20" state="rrrGGgrrrGGg"/>
+    <phase duration="3"  state="yyryrryyryrr"/>
+    <phase duration="3"  state="rrryyryrryy"/>
+  </tlLogic>
+
+  <tlLogic id="J3" type="static" programID="prog" offset="20">
+    <phase duration="20" state="GGgrrrGGgrrr"/>
+    <phase duration="20" state="rrrGGgrrrGGg"/>
+    <phase duration="3"  state="yyryrryyryrr"/>
+    <phase duration="3"  state="rrryyryrryy"/>
+  </tlLogic>
+</additional>

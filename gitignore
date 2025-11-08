@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# SUMO outputs & large generated files
+logs/
+tripinfo.xml
+summary.xml
+fcd.xml
+vehroutes.xml
+emission.xml
+queue_*.xml
+detector_*.xml
+
+# Generated routes/trips (keep sources, 忽略可再生成物)
+routes.rou.xml
+trips.trips.xml
+
+# Netconvert intermediates
+*.net.cache.xml
+*.netccfg.bak
+
+# Plots / reports
+*.png
+*.pdf
+
+# Windows batch temp
+*.bat~
